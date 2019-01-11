@@ -1,4 +1,4 @@
-for i in ../getfem-ja/doc/sphinx/source/locale/ja/LC_MESSAGES/project/femdesc.po
+for i in ../for_translation_getfem-53-1_install--install_linux_ja.po
 do
   echo ${i}
   python3 po-en2txt-en.py ${i} ${i}-en.txt
